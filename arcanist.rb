@@ -1,10 +1,10 @@
 class Arcanist < Formula
   homepage "http://phabricator.org/"
-  url "https://github.com/phacility/arcanist.git", :revision => "66ab1c955d27ff7875f62eb51a0bd6c4770a7ae3"
+  url "https://github.com/phacility/arcanist.git", :revision => "ccbaee585e1a350d1ff970c30481079dc8471a7c"
   version "0.1"
 
   resource "libphutil" do
-    url "https://github.com/phacility/libphutil.git", :revision => "e9ed72483a14b86d6f770dca589443d31523f415"
+    url "https://github.com/phacility/libphutil.git", :revision => "f5f44f3a2c0bd5ca7950e9404841c1cca9de8ee0"
   end
 
   def install
