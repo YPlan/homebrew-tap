@@ -1,7 +1,7 @@
 class Arcanist < Formula
   homepage "http://phabricator.org/"
   url "https://github.com/phacility/arcanist.git", :revision => "ccbaee585e1a350d1ff970c30481079dc8471a7c"
-  version "0.1"
+  version "0.2"
 
   resource "libphutil" do
     url "https://github.com/phacility/libphutil.git", :revision => "f5f44f3a2c0bd5ca7950e9404841c1cca9de8ee0"
