@@ -1,5 +1,9 @@
 class Arcanist < Formula
   homepage "http://phabricator.org/"
+  # To upgrade:
+  # 1. update the SHAs to point at the new versions of arc and libphutil we use
+  # 2. increment the 'version'
+
   url "https://github.com/phacility/arcanist.git", :revision => "ccbaee585e1a350d1ff970c30481079dc8471a7c"
   version "0.2"
 
