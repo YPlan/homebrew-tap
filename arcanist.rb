@@ -5,7 +5,7 @@ class Arcanist < Formula
   # 2. increment the 'version'
 
   url "https://github.com/phacility/arcanist.git", :revision => "2234c8cacc21ce61c9c10e8e5918b6a63cc38fc8"
-  version "0.2"
+  version "0.3"
 
   resource "libphutil" do
     url "https://github.com/phacility/libphutil.git", :revision => "5eaf0a9f5a3540a2eba9c75b4e792d0fb26cf69a"
