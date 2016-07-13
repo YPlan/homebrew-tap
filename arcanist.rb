@@ -4,11 +4,11 @@ class Arcanist < Formula
   # 1. update the SHAs to point at the new versions of arc and libphutil we use
   # 2. increment the 'version'
 
-  url "https://github.com/phacility/arcanist.git", :revision => "2234c8cacc21ce61c9c10e8e5918b6a63cc38fc8"
-  version "0.3"
+  url "https://github.com/phacility/arcanist.git", :revision => "4d4d16f25985f133501f20fdddd183e525f00341"
+  version "2016.28"
 
   resource "libphutil" do
-    url "https://github.com/phacility/libphutil.git", :revision => "5eaf0a9f5a3540a2eba9c75b4e792d0fb26cf69a"
+    url "https://github.com/phacility/libphutil.git", :revision => "32c56dc20b39cffd0cfef931f6f4ab9c99f12677"
   end
 
   def install
